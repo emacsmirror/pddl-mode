@@ -97,7 +97,7 @@
 				    "when" "assign" "scale-up" "scale-down"
 				    "increase" "decrease" "start" "end" "all"
 				    "at" "over" "minimize" "maximize"
-				    "total-time") 'words)
+				    "total-time") 'symbols)
 		      'font-lock-keyword-face)))
   "Additional Keywords to highlight in PDDL mode")
 
