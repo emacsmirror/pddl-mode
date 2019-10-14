@@ -76,7 +76,7 @@
     PDDL-mode-map)
   "Keymap for PDDL major mode")
 
-(add-to-list 'auto-mode-alist '("\\.PDDL\\'".PDDL-mode))
+(add-to-list 'auto-mode-alist '("\\.PDDL\\'" . PDDL-mode))
 
 (defconst PDDL-font-lock-keywords-1
   (list (cons "\\(\\(^\\|[^\\\\\n]\\)\\(\\\\\\\\\\)*\\);+.*$"
